@@ -1,0 +1,23 @@
+# config.dpf -- 2010-08-06		
+		
+# internal variables
+src = ./
+config = /home/bolt/config
+
+# meta data
+meta project = wot
+meta name = config
+meta version = file:changelog
+meta summary = fbmatch
+meta description = fbmatch Config
+meta changelog = changelog
+
+# set 
+set mongo.host localhost
+set mongo.user m0ng0A6m1n
+
+# dir
+dir - - - $(config)
+
+# set
+settings $(config) $(src)/waroftruth.ini
