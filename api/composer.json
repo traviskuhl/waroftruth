@@ -1,0 +1,10 @@
+{
+    "name": "waroftruth/api",
+    "authors": [
+        {
+            "name": "Travis Kuhl",
+            "email": "travis@traviskuhl.com"
+        }
+    ],
+    "require": {}
+}

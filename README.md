@@ -1,2 +1,1 @@
-War of Truth
-=========
+# War of Truth
