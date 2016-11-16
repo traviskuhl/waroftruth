@@ -1,0 +1,22 @@
+
+.wrapper {
+
+}
+
+.title {
+  font-size: 3rem;
+  color: #333;
+}
+
+.topic {
+  width: 50%;
+  float: left;
+}
+
+.affermative {
+  composes: topic;
+}
+
+.negative {
+  composes: topic;
+}

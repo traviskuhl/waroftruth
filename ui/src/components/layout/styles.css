@@ -1,0 +1,36 @@
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+.header {
+  padding: 20px;
+  background: #fff;
+  border-bottom: solid 1px #eee;
+}
+
+.header_container {
+  composes: container from '../../css/layout.css';
+}
+
+.header_logo {
+  color: #333;
+  text-decoration: none;
+}
+
+.body {
+  flex-grow: 2;
+  padding: 20px;
+}
+
+.body_container {
+  composes: container from '../../css/layout.css';
+}
